@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PlayniteCommon.Extensions
 {
@@ -12,7 +9,7 @@ namespace PlayniteCommon.Extensions
         {
             var max = double.NegativeInfinity;
             TValue maxValue = default;
-            foreach(var item in enumerable)
+            foreach (var item in enumerable)
             {
                 var score = func(item);
                 if (score > max)

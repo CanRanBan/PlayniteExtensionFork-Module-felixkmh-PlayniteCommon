@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PlayniteCommon.Extensions
 {
@@ -16,7 +12,8 @@ namespace PlayniteCommon.Extensions
                 if (collection.Count > index)
                 {
                     collection[index] = item;
-                } else
+                }
+                else
                 {
                     collection.Add(item);
                 }
@@ -28,7 +25,7 @@ namespace PlayniteCommon.Extensions
             if (collection != null)
             {
                 int i = 0;
-                foreach(var item in items)
+                foreach (var item in items)
                 {
                     collection.UpdateOrAdd(item, i);
                     ++i;

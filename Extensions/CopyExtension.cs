@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PlayniteCommon.Extensions
+﻿namespace PlayniteCommon.Extensions
 {
     public static class CopyExtension
     {
